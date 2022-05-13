@@ -11,8 +11,6 @@ for (let i = 0; i < palabra.length; i++) {//puede ser una funcion crear palabra
 }
 
 
-//realmente lo que hay que hace res que al escribir se capture ese evento e inicie este proceso
-//no hay input para la entrada de las letras solo las teclea y van apareciendo de ser correctas
 /* botonAceptar.addEventListener('click', (Event)=>{
     Event.preventDefault()
     //la idea es crear un input que recibe iuna letra y comparar con las letras que hay y cambiarle el estilo para hacerla visible
@@ -43,11 +41,6 @@ var objeto
     document.addEventListener('keydown', function (Event) {
         //Dependiendo del navegador usara el which o el keycode OJO ES IMPORTANTE
         var keycodeentero = Event.which || Event.keyCode;
-        //Buscamos el objeto tecla
-         //objeto = document.getElementById('tecla');
-        // Y con el String obtenemos la tecla presionada.
-        //objeto.textContent = 'La tecla presionada es: ' + 
-        //return objeto.textContent = String.fromCharCode(keycodeentero);
         var letraAdescubrir = String.fromCharCode(keycodeentero);
         console.log(letraAdescubrir)
         var le = document.querySelectorAll('span')
