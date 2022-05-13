@@ -1,0 +1,22 @@
+.res {
+    margin:  30% auto;
+
+    text-align: center;
+    
+}
+
+.letras {
+    width: 20px;/* bsucando que la linea bajo las letras sean iguales, falta */
+    color: blue;
+    font-size: 64px;
+    margin-right: 20px;
+    border-bottom: 2px solid darkblue;
+}
+
+.letrasOcultas {
+    width: 20px;
+    color: transparent;
+    font-size: 64px;
+    margin-right: 20px;
+    border-bottom: 2px solid darkblue;
+}
