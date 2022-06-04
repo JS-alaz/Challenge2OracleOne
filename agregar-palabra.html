@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar palabra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="Frame 6.png" alt=""><!-- logo -->
+    <main>
+        <div>
+            <input class="palabra-agregada" type="text" placeholder="Ingrese una palabra" maxlength="8">
+        </div><!-- para un input donde se ingresa la nueva palabra -->
+        <span class="alert"><span class="symbol">!</span> Max. de 8 letras</span>
+        <div class="contenedor-btns__agregar">
+            <div  class="boton-agregar-palabra" id="agregar">Guardar y empezar</div>
+            <div onclick="cancelar()" class="boton-cancelar-agregar" id="cancelar">Cancelar</div>
+        </div><!-- botones -->
+    </main>
+    <script src="app.js"></script>
+    <script src="agregar-palabra.js"></script>
+</body>
+</html>
